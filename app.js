@@ -9,7 +9,7 @@ var indexRouter = require('./routes/index');
 var guitarsRouter = require('./routes/guitars');
 var populateRouter = require('./routes/populate');
 
-var db = require("./models");
+var db = require("./models"); 
 db.sequelize.sync({ force: false })
 
 var app = express();
